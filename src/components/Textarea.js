@@ -29,7 +29,7 @@ const handleSpacesCase=()=>{
 }
     return (
         <>
-        <div className="mb-3 my-3" >
+        <div className="mb-3 my-4" >
             <h2>{props.heading}</h2>
             <textarea className="form-control" value={text} onChange={handleOnChange} id="textArea" rows="8" style={{backgroundColor: props.mode=="light"?"white":"#455573",color:props.mode=="light"?"black":"white"}}></textarea>
         </div>
