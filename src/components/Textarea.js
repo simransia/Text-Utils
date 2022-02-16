@@ -30,7 +30,9 @@ const handleSpacesCase=()=>{
     return (
         <>
         <div className="mb-3 my-5" >
+            <div className='my-2'>
             <h2>{props.heading}</h2>
+            </div>
             <textarea className="form-control" value={text} onChange={handleOnChange} id="textArea" rows="8" style={{backgroundColor: props.mode=="light"?"white":"#455573",color:props.mode=="light"?"black":"white"}}></textarea>
         </div>
         <button className="btn btn-primary  mx-1 my-1" disabled={text===""} onClick={handleUpCase} >Uppercase</button>
