@@ -8,7 +8,7 @@ const capitalised=(word)=>{
 }
 
   return (
-    <div style={{height:"35px"}} > 
+    <div style={{height:"30px"}} > 
     {props.alert && 
      <div class={`alert alert-${props.alert.type} `} role="alert">
         <div> <strong>{capitalised(props.alert.type)}</strong> {props.alert.msg}</div>
