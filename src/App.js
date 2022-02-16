@@ -46,7 +46,7 @@ const showAlert=(msg,type)=>{
     <Router>
      <Navbar title="TextUtils" toggleMode={toggleMode} mode={mode}/>
       <Alert alert={alert}/>
-      <div className='container'>
+      <div className='container my-3'>
       <Routes>
       <Route path="/" element={
      <Textarea heading="Enter Your Text To Do Formatting" mode={mode} showAlert={showAlert}/>
